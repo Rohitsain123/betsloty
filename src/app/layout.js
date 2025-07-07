@@ -1,14 +1,17 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Heebo, Alegreya } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/common/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const heebo = Heebo({
   subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-heebo",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const alegreya = Alegreya({
   subsets: ["latin"],
+  weight: ["500", "600", "700", "800"],
+  variable: "--font-alegreya",
 });
 
 export const metadata = {
@@ -18,10 +21,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en" className={`${heebo.variable} ${alegreya.variable}`}>
+      <body className="font-heebo">
+        <Navbar />
         {children}
       </body>
     </html>
