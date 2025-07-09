@@ -47,3 +47,20 @@ export const MsgIcon = () => (
     />
   </svg>
 );
+export const ArrowIcon = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="19"
+    height="11"
+    viewBox="0 0 19 11"
+    fill="none"
+  >
+    <path
+      d="M17.0137 1.0127L9.01367 9.0127L1.01367 1.0127"
+      stroke="#FAFAFF"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);

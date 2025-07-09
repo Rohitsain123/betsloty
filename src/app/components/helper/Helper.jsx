@@ -190,3 +190,232 @@ export const tokenData = [
     para: "Presale Hardcap: $3 Million USD",
   },
 ];
+export const airDrop = [
+  {
+    title: "Airdrop",
+    src: "/assetes/png/line2.png",
+    para: "To show appreciation for our early players at Betsloty, we have launched an exclusive airdrop program. This initiative rewards these pioneering members based on their wagering activities, acknowledging their loyalty and engagement from the very beginning.",
+    bgimg: "/assetes/png/cardbg2.png",
+    cardData: [
+      {
+        title: "Genesis players",
+        para: "1 Million tokens will be airdropped to all users who have wagered in the casino based on wagering volume .",
+      },
+      {
+        title: "Early Birds",
+        para: "The early birds stage consists of 1 Million tokens split into 2 pools",
+        para2: "Which will be based on Players VIP Levels",
+        para3:
+          "Airdrop By completing Certain Task : (3% Token , 3 Million Tokens)",
+      },
+    ],
+  },
+];
+export const stakingData = [
+  {
+    title: "Staking",
+    src: "/assetes/png/line2.png",
+    para: "Staking involves locking up a certain amount of $BST within the platform for a predetermined period. In return, stakers receive rewards in the form of additional $BST tokens, essentially earning interest on their staked amount.",
+    bgimg: "/assetes/png/cardbg3.png",
+
+    cardData: [
+      {
+        title: "How Rewards are Distributed",
+        para: "Rewards are calculated based on the staked amount and the duration. Rewards can be claimed at any time through the website and can be used in the casino,",
+        para2:
+          "re staked or kept in your wallet. At the end of the staking period, the initial staked tokens plus any unclaimed rewards are released to the staker wallet.",
+      },
+      {
+        title: "Multiple Purchases & Staking",
+        para: "When you purchase and immediately stake your $BST and subsequently purchase again, your previously accrued staking rewards will be automatically claimed to your wallet. ",
+        para2:
+          "Meaning if you wish to stake those claimed rewards you will need to stake them via our staking page on Betsloty.",
+      },
+      {
+        title: "Staking Locking Period",
+        para: "While $BST is in the presale stage, any tokens that are staked are locked in the staking contract until launch day + 15 days. ",
+        para2:
+          "Rewards that are accrued in that time however can be claimed at any time and can be used in the casino, kept in your wallet or re staked to compound your holdings.",
+      },
+    ],
+  },
+];
+export const footerIcon = [
+  {
+    path: "https://www.facebook.com",
+    link: "/assetes/svg/facebook.svg",
+  },
+  {
+    path: "https://www.linkedin.com",
+    link: "/assetes/svg/xmaster.svg",
+  },
+  {
+    path: "https://web.telegram.org/k/",
+    link: "/assetes/svg/telegram.svg",
+  },
+  {
+    path: "https://www.instagram.com",
+    link: "/assetes/svg/insta.svg",
+  },
+];
+export const footerLink = [
+  {
+    title: "Games",
+    subLinks: [
+      {
+        link: "All Games",
+        path: "/",
+      },
+      {
+        link: "Sports",
+        path: "/",
+      },
+      {
+        link: "Jackpot",
+        path: "/",
+      },
+      {
+        link: "New Releases",
+        path: "/",
+      },
+    ],
+  },
+  {
+    title: "About",
+    subLinks: [
+      {
+        link: "Bonuses",
+        path: "/",
+      },
+      {
+        link: "About Casino",
+        path: "/",
+      },
+      {
+        link: "Tournaments",
+        path: "/",
+      },
+      {
+        link: "Affiliate",
+        path: "/",
+      },
+    ],
+  },
+  {
+    title: "Info",
+    subLinks: [
+      {
+        link: "FAQ",
+        path: "/",
+      },
+      {
+        link: "Terms and conditions",
+        path: "/",
+      },
+      {
+        link: "Privacy policy",
+        path: "/",
+      },
+      {
+        link: "Self-exclusion Policy",
+        path: "/",
+      },
+    ],
+  },
+];
+export const accordianData = [
+  {
+    title: "Clear cache completely in Google Chrome browser",
+    desc: "To clear the cache, you need to go to the history of Google Chrome (Ctrl + H), then in the window that opens, click Clear History. And here, select the period (it is recommended to clear for all time). Full cache cleaning  in Mozilla Firefox browser Click on the  Menu button, then select the Settings section, In the advanced panel, go to the Network tab In the Web Content Caching section click the Clear Now button",
+  },
+  {
+    title: "Didn't receive Verification code?",
+    desc: "Please check the correctness of phone number. If you have had this problem yet, send us an email",
+  },
+  {
+    title: "Internet connection",
+    desc: "There can be many reasons for problems with an Internet connection:   - slow operation of the Internet gateway   - Poor performance. - Your system configuration. - The number of applications you use to access the internet. - The amount of available memory on the system. We recommend you: - Delete temporary files and folders and clear browser cache and cookies - Do not use other applications while playing - Test your connection speed. Before moving on to the hardware and computer settings, check the speed of your connection and compare it with that declared by your provider. - Reboot the router. If your modem or router does not have a power button, simply unplug the power cord from the wall outlet, wait 30 seconds, and then plug it back in.",
+  },
+  {
+    title: "How to start playing?",
+    desc: "In order to start playing, you need to register. After registration, log into your account and create an account in your preferred currency. Then you can fund your account and start playing for real money, or try the games in a free “demo” mode. To open the game in demo mode, go to the All games tab, hover over any game and click demo To find the game you are interested in, you can use the search, and also select one of the categories or game providers, in the tabs categories and providers Good luck!",
+  },
+  {
+    title: "How do I find the most popular games?",
+    desc: "These will be listed on the sites home page",
+  },
+  {
+    title: "I can not enter the game",
+    desc: "To enter the games, you need to log into your account. - For the games to work correctly, you need to install the latest version of Flashplayer. If Flashplayer is not installed, you can download and install it here: http://get.adobe.com/flashplayer/ - Clear your browser cache and cookies - The most suitable browsers for the game are Google Chrome and Mozilla Firefox - Make sure your Internet connection is stable If the listed solutions to the problem did not help, contact the online support chat on the site, we are working for you 24/7. How to clear cache and cookies Sometimes there are situations in which clearing the cache is the only possible solution to the problem. Here's how to do it. We recommend using the following browsers for the game: Google Chrome, Mozilla Firefox",
+  },
+];
+export const walletCard = [
+  {
+    bgimg: "/assetes/png/cardbg3.png",
+    img: "/assetes/png/slogo.png",
+    title: "1. Connect your Wallet",
+    para: [
+      {
+        parts: [
+          {
+            text: "First, ensure you have a $CHANCER-supported wallet set up. We recommend Metamask for desktop and Trust Wallet for mobile. Click ",
+          },
+          {
+            text: "“Connect Wallet” ",
+            color: "blue",
+          },
+          {
+            text: "to allow $CHANCER to interact with your wallet.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    bgimg: "/assetes/png/cardbg3.png",
+    img: "/assetes/png/trolly.png",
+    title: "2. Buy $CHANCER",
+    para: [
+      {
+        parts: [
+          {
+            text: "When you have successfully connected your wallet, choose the amount of $CHANCER tokens you wish to purchase then click  ",
+          },
+          {
+            text: "“Buy”.",
+            color: "blue",
+          },
+        ],
+      },
+      {
+        parts: [
+          {
+            text: "Note: ",
+            color: "blue",
+          },
+          {
+            text: "If you are purchasing with BUSD or USDT, you will need to click “Approve” before you are able to click “Buy”.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    bgimg: "/assetes/png/cardbg3.png",
+    img: "/assetes/png/hand.png",
+    title: "3. Claim your Tokens",
+    para: [
+      {
+        parts: [
+          {
+            text: "$CHANCER tokens can be claimed at the end of our presale. Specific details will be released closer to the time, so keep an eye on our socials to hear about updates first. Once the presale period has concluded, visit the Chancer homepage and click.",
+          },
+          {
+            text: "“Claim” ",
+            color: "blue",
+          },
+        ],
+      },
+    ],
+  },
+];
