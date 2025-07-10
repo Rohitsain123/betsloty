@@ -3,6 +3,7 @@ import Heading from "../../common/Heading";
 import Image from "next/image";
 import Para from "../../common/Para";
 import { walletCard } from "../../helper/Helper";
+import { alegreya } from "@/app/layout";
 
 function Buy() {
   return (
@@ -30,7 +31,7 @@ function Buy() {
             }
           />
           <div className="mt-9 lg:mt-15 relative">
-            <div className="absolute left-65 top-7">
+            <div className="absolute left-65 top-7 hidden xl:block">
               <Image
                 src={"/assetes/png/cardline.png"}
                 width={270}
@@ -38,7 +39,7 @@ function Buy() {
                 alt={"line"}
               />
             </div>
-            <div className="absolute right-65 top-14">
+            <div className="absolute right-65 top-14 hidden xl:block">
               <Image
                 src={"/assetes/png/cardline2.png"}
                 width={270}
@@ -46,13 +47,14 @@ function Buy() {
                 alt={"line"}
               />
             </div>
-            <div className="flex justify-between gap-[10px]">
+            <div className="flex flex-wrap lg:flex-nowrap justify-center lg:justify-between gap-[30px] lg:gap-[20px]">
               {walletCard.map((item, index) => (
                 <div
-                  className={`bg-cover bg-no-repeat bg-center w-[376px] h-[441px] px-[34px] pt-[50px]`}
+                  className={`bg-cover bg-no-repeat bg-center w-[320px] md:w-[350px] lg:w-[376px] h-[320px] md:h-[380px] lg:h-[441px] px-[20px] xl:px-[44px] pt-[30px] lg:pt-[50px] pb-[30px] lg:pb-[50px]`}
                   style={{
                     backgroundImage: `url(${item.bgimg})`,
                     backgroundPosition: "center",
+                    backgroundSize: `100% 100%`,
                   }}
                   key={index}
                 >
@@ -60,16 +62,14 @@ function Buy() {
                     <Image src={item.img} width={50} height={50} alt={"img"} />
                   </div>
                   <Heading
-                    className={
-                      "!text-base md:!text-xl lg:!text-[25px] mt-[30px] text-center"
-                    }
+                    className={`!text-base md:!text-xl lg:!text-[25px] mt-[15px] lg:mt-[30px] text-center ${alegreya.className}`}
                     sapntitle={item.title}
                   />
-                  <div className="mt-4">
+                  <div className="mt-2 lg:mt-4">
                     {item.para.map((paraObj, pIndex) => (
                       <p
                         key={pIndex}
-                        className="max-w-[285px] text-center !text-sm md:!text-base lg:!text-base !text-[#9E9AB4] leading-[160%] mb-2"
+                        className="w-full xl:max-w-[285px] text-center !text-sm md:!text-base lg:!text-base !text-[#9E9AB4] leading-[160%] mb-2"
                       >
                         {paraObj.parts.map((part, partIndex) => (
                           <span

@@ -57,9 +57,7 @@ export const coinData = [
   {
     img: "/assetes/svg/cointelegraph.svg",
   },
-  {
-    img: "/assetes/svg/crypto.svg",
-  },
+
   {
     img: "/assetes/svg/coincierge.svg",
   },
@@ -68,6 +66,16 @@ export const coinData = [
   },
   {
     img: "/assetes/svg/kryptoszene.svg",
+  },
+
+  {
+    img: "/assetes/svg/coincierge.svg",
+  },
+  {
+    img: "/assetes/svg/coincierge.svg",
+  },
+  {
+    img: "/assetes/svg/cryptonews.svg",
   },
 ];
 export const tabs = [
@@ -416,6 +424,137 @@ export const walletCard = [
           },
         ],
       },
+    ],
+  },
+];
+export const sliderData = [
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+];
+export const cardData = [
+  {
+    src: "/assetes/png/leftcardline.png",
+    title: "Phase 1 (Completed) - January 2023",
+    subpara: [
+      {
+        para: "1) Creating A Business Plan ✅",
+      },
+      {
+        para: "2) Formulating Company in Curacao ✅",
+      },
+      {
+        para: "3) Self Funding of 1M$ ✅",
+      },
+      {
+        para: "4) company Formulation in Cyprus  ✅",
+      },
+    ],
+  },
+  {
+    src: "/assetes/png/leftcardline.png",
+    title: "Phase 3  (Completed) - September 2023",
+    subpara: [
+      {
+        para: "1) Platform Live for Public ",
+      },
+      {
+        para: "2) Massive Marketing ",
+      },
+      {
+        para: "3) Reaching 100k Registrations",
+      },
+      {
+        para: "4) Reaching 500k$ Players Deposits",
+      },
+    ],
+  },
+  {
+    src: "/assetes/png/leftcardline.png",
+    title: "Phase 5  - January 2024 onwards",
+    subpara: [
+      {
+        para: "1) Introducing Crypto reward Token and NFTs (not For purpose of Investment or security)",
+      },
+      {
+        para: "2) Influencers Partnership and Advisors onboarding",
+      },
+      {
+        para: "3) Reaching 100k Registrations",
+      },
+      {
+        para: "4) Token Initial offering",
+      },
+      {
+        para: "5) Public offering of tokens",
+      },
+      {
+        para: "6) Listing of token on Various exchanges",
+      },
+      {
+        para: "7) Token Airdrops",
+      },
+      {
+        para: "8) Reaching 5m$ in Deposits",
+      },
+      {
+        para: "9) Inhouse Payment Processor",
+      },
+    ],
+  },
+];
+export const rightcardData = [
+  {
+    src: "/assetes/png/rightcardline.png",
+    title: "Phase 2 (Completed) - August 2023",
+    subpara: [
+      { para: "1) Platform Development ✅" },
+      { para: "2) Sportsbook Integration ✅" },
+      { para: "3) Affiliate Platform development ✅" },
+      { para: "4) Casino Blog and News Platform Development ✅" },
+      { para: "5) Obtaining Curacao License ✅" },
+    ],
+  },
+  {
+    src: "/assetes/png/rightcardline.png",
+    title: "Phase 4 - October 2023 Onwards",
+    subpara: [
+      {
+        para: "1) Expanding to various Global markets as such Asian markets  , European markets , Latam)",
+      },
+      { para: "2) Token Airdrops" },
+      { para: "3) Reaching 2M+ Registrations" },
+      { para: "4) Reaching 10m$ Players Deposits" },
+      { para: "5) VIP Events for Higher Loyalty level casino Players " },
+    ],
+  },
+  {
+    src: "/assetes/png/rightcardline.png",
+    title: "Phase 6 - June 2024 Onwards",
+    subpara: [
+      { para: "1) Introducing in house games based on utility token" },
+      { para: "2) inbuilt Crypto Futures and Crypto Dex " },
+      { para: "3) Token Burn mechanism to increase value of token" },
+      { para: "4) Reaching 100M$ Players Deposits" },
+      { para: "5) Generating 2M$+ Daily GGR (revenue without expenses)" },
     ],
   },
 ];

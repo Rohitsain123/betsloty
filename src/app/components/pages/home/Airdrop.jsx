@@ -28,7 +28,7 @@ function Airdrop({ imgClass }) {
                   subtitle={item.para}
                 />
                 <div
-                  className="mt-15 flex flex-wrap xl:flex-wrap  xl:gap-[10px] justify-between
+                  className="mt-15 flex flex-wrap lg:flex-nowrap gap-[30px] xl:gap-[10px] justify-between
                 "
                 >
                   {item.cardData.map((i, subindex) => (
@@ -37,6 +37,7 @@ function Airdrop({ imgClass }) {
                       style={{
                         backgroundImage: `url(${item.bgimg})`,
                         backgroundPosition: "center",
+                        backgroundSize: `100% 100%`,
                       }}
                       key={subindex}
                     >

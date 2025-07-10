@@ -3,6 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --al: alegreya.classname;
 }
 
 @theme inline {
@@ -22,8 +23,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Hebbo, Arial, Helvetica, sans-serif;
 }
+
 .hero-bg {
   background-image: url("/assetes/png/hero-bg.png");
   background-repeat: no-repeat;
@@ -50,4 +51,30 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 100% 100%;
+}
+.swiper-button-next::after {
+  content: none !important;
+}
+.swiper-button-prev::after {
+  content: none !important;
+}
+.mySwiper {
+  width: 100%;
+}
+.mySwiper img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  padding-bottom: 60px;
+}
+.swiper-pagination {
+  margin-top: 60px;
+  bottom: -40px;
+  position: absolute;
+}
+.bgimg {
+  background-image: url("/assetes/png/cardbg.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
