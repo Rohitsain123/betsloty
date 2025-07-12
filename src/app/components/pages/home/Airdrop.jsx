@@ -28,12 +28,12 @@ function Airdrop({ imgClass }) {
                   subtitle={item.para}
                 />
                 <div
-                  className="mt-15 flex flex-wrap lg:flex-nowrap gap-[30px] xl:gap-[10px] justify-between
+                  className="mt-[30px] md:mt-12 lg:mt-15 flex flex-wrap lg:flex-nowrap gap-[30px] xl:gap-[20px] justify-center lg:justify-between
                 "
                 >
                   {item.cardData.map((i, subindex) => (
                     <div
-                      className={`bg-no-repeat bg-cover bg-center  w-[582px] h-[267px] pt-[30px] ps-[30px] pe-[76px]`}
+                      className={`bg-no-repeat bg-cover bg-center w-[450px] md:w-[582px] h-[200px] md:h-[267px] pt-[20px] md:pt-[30px] ps-[30px] pe-[35px] lg:pe-[76px] z-1`}
                       style={{
                         backgroundImage: `url(${item.bgimg})`,
                         backgroundPosition: "center",
@@ -47,19 +47,19 @@ function Airdrop({ imgClass }) {
                       />
                       <Para
                         className={
-                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-4"
+                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-1 md:mt-4"
                         }
                         subtitle={i.para}
                       />
                       <Para
                         className={
-                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-[10px]"
+                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-1 md:mt-[10px]"
                         }
                         subtitle={i.para2}
                       />{" "}
                       <Para
                         className={
-                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-[10px]"
+                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-1 md:mt-[10px]"
                         }
                         subtitle={i.para3}
                       />

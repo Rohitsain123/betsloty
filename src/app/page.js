@@ -9,6 +9,8 @@ import Staking from "./components/pages/home/Staking";
 import Footer from "./components/common/Footer";
 import Question from "./components/pages/home/Question";
 import Buy from "./components/pages/home/Buy";
+
+import Image from "next/image";
 import Sharing from "./components/pages/home/Sharing";
 
 function page() {
@@ -19,8 +21,18 @@ function page() {
       <Vision />
       <Roadmap />
       <Tokenomics />
-      <Airdrop />
-      <Staking />
+      <div className="relative">
+        <div className="absolute right-40 top-120">
+          <Image
+            src={"/assetes/png/circularline.png"}
+            width={507}
+            height={512}
+            alt={"line"}
+          />
+        </div>
+        <Airdrop />
+        <Staking />
+      </div>
       <Sharing />
       <Buy />
       <Question />

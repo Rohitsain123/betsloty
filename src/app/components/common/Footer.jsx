@@ -13,14 +13,14 @@ function Footer() {
           <div className="pt-[50px] pb-[45px] max-w-[1352px] px-4 sm:px-6 md:px-9 lg:px-12 xl:px-[80px] mx-auto">
             <div className="flex flex-wrap md:flex-nowrap gap-10 md:gap-4 justify-between">
               <div className="w-[100%] md:w-[40%]">
-                <div>
+                <Link href={"/"}>
                   <Image
                     src={"/assetes/png/logo.png"}
                     width={210}
                     height={45}
                     alt={"logo"}
                   />
-                </div>
+                </Link>
                 <Para
                   className={
                     "w-full md:max-w-[440px] mt-[15px] md:mt-[30px] !text-sm md:!text-base !text-[#9E9AB4] leading-[150%]"
@@ -73,7 +73,15 @@ function Footer() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div>{" "}
+          </div>{" "}
+          <div>
+            <Para
+              className={
+                "!text-[#9E9AB4] !text-sm md:!text-base lg:!text-lg text-center pt-[26px] pb-[30px] border border-t"
+              }
+              subtitle={"© Betsloty 2023. All rights reserved"}
+            />
           </div>
         </div>
       </div>

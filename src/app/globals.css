@@ -35,7 +35,7 @@ body {
   background-image: url("/assetes/png/form-bg.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 .vision-bg {
   background: linear-gradient(180deg, #19172f 0%, rgba(19, 17, 38, 0) 100%);
@@ -77,4 +77,25 @@ body {
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.swiper-pagination-bullet {
+  background-color: #9e9ab4; /* grayish default */
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+  margin: 0 6px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #facc15; /* yellow for active dot */
 }

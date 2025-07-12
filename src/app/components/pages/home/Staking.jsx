@@ -7,7 +7,7 @@ import Para from "../../common/Para";
 function Staking() {
   return (
     <>
-      <div className="bg-[#100F1F] pt-[0px] md:pt-[30px] lg:pt-[65px] pb-[40px] md:pb-[80px] lg:pb-[115px]">
+      <div className="bg-[#100F1F] pt-[0px] md:pt-[30px] lg:pt-[65px] pb-[40px] md:pb-[80px] lg:pb-[115px] z-[1]">
         <div className="max-w-[1352px] px-4 sm:px-6 md:px-9 lg:px-12 xl:px-[80px] mx-auto">
           <div>
             {stakingData.map((item, index) => (
@@ -34,6 +34,7 @@ function Staking() {
                       style={{
                         backgroundImage: `url(${item.bgimg})`,
                         backgroundPosition: "center",
+                        backgroundSize: `100% 100%`,
                       }}
                       key={subindex}
                     >
@@ -43,22 +44,16 @@ function Staking() {
                       />
                       <Para
                         className={
-                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-1 sm:mt-4"
+                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-1 sm:mt-4 w-full lg:max-w-[291px]"
                         }
                         subtitle={i.para}
                       />
                       <Para
                         className={
-                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-[4px] sm:mt-[10px]"
+                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-[4px] sm:mt-[10px] w-full lg:max-w-[291px]"
                         }
                         subtitle={i.para2}
                       />{" "}
-                      <Para
-                        className={
-                          "!text-sm md:!text-base lg:!text-lg !text-[#9E9AB4] mt-[4px] sm:mt-[10px]"
-                        }
-                        subtitle={i.para3}
-                      />
                     </div>
                   ))}
                 </div>

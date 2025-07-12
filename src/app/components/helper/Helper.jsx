@@ -345,6 +345,10 @@ export const accordianData = [
     desc: "There can be many reasons for problems with an Internet connection:   - slow operation of the Internet gateway   - Poor performance. - Your system configuration. - The number of applications you use to access the internet. - The amount of available memory on the system. We recommend you: - Delete temporary files and folders and clear browser cache and cookies - Do not use other applications while playing - Test your connection speed. Before moving on to the hardware and computer settings, check the speed of your connection and compare it with that declared by your provider. - Reboot the router. If your modem or router does not have a power button, simply unplug the power cord from the wall outlet, wait 30 seconds, and then plug it back in.",
   },
   {
+    title: "Why upload documents for identification?",
+    desc: "There can be many reasons for problems with an Internet connection:   - slow operation of the Internet gateway   - Poor performance. - Your system configuration. - The number of applications you use to access the internet. - The amount of available memory on the system. We recommend you: - Delete temporary files and folders and clear browser cache and cookies - Do not use other applications while playing - Test your connection speed. Before moving on to the hardware and computer settings, check the speed of your connection and compare it with that declared by your provider. - Reboot the router. If your modem or router does not have a power button, simply unplug the power cord from the wall outlet, wait 30 seconds, and then plug it back in.",
+  },
+  {
     title: "How to start playing?",
     desc: "In order to start playing, you need to register. After registration, log into your account and create an account in your preferred currency. Then you can fund your account and start playing for real money, or try the games in a free “demo” mode. To open the game in demo mode, go to the All games tab, hover over any game and click demo To find the game you are interested in, you can use the search, and also select one of the categories or game providers, in the tabs categories and providers Good luck!",
   },
@@ -428,6 +432,18 @@ export const walletCard = [
   },
 ];
 export const sliderData = [
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
+  {
+    img: "/assetes/png/baby.png",
+  },
   {
     img: "/assetes/png/baby.png",
   },
@@ -556,5 +572,40 @@ export const rightcardData = [
       { para: "4) Reaching 100M$ Players Deposits" },
       { para: "5) Generating 2M$+ Daily GGR (revenue without expenses)" },
     ],
+  },
+];
+export const dot = [
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
+  },
+  {
+    img: "/assetes/png/dot.png",
   },
 ];

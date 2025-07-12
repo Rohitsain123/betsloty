@@ -5,6 +5,7 @@ import Image from "next/image";
 import { accordianData } from "../../helper/Helper";
 import Para from "../../common/Para";
 import { ArrowIcon } from "../../helper/Icon";
+import { alegreya } from "@/app/layout";
 
 function Question() {
   const [openIndex, setOpenIndex] = useState(null);
@@ -15,10 +16,10 @@ function Question() {
 
   return (
     <>
-      <div className="bg-[#100F1F] pt-[20px] md:pt-[40px] lg:pt-[60px] pb-[40px] md:pb-[0px] lg:pb-[110px]">
+      <div className="bg-[#100F1F] pt-[20px] md:pt-[40px] lg:pt-[60px] pb-[40px] md:pb-[80px] lg:pb-[110px]">
         <div className="max-w-[1352px] px-4 sm:px-6 md:px-9 lg:px-12 xl:px-[80px] mx-auto">
           <Heading
-            className={"!text-2xl md:!text-3xl lg:!text-[39px] text-center"}
+            className={`!text-2xl md:!text-3xl lg:!text-[39px] text-center ${alegreya.className}`}
             title={"Frequently Asked"}
             sapntitle={"Questions"}
           />
