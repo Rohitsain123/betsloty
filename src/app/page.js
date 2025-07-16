@@ -22,7 +22,7 @@ function page() {
       <Roadmap />
       <Tokenomics />
       <div className="relative">
-        <div className="absolute right-40 top-120">
+        <div className="absolute right-0 top-99">
           <Image
             src={"/assetes/png/circularline.png"}
             width={507}

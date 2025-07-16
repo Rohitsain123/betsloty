@@ -2,6 +2,8 @@ import { Heebo, Alegreya } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/common/Navbar";
 
+import { metadata } from "./layout";
+
 export const heebo = Heebo({
   subsets: ["latin"],
   weight: ["500", "600", "700", "800"],

@@ -5,27 +5,27 @@ export const navLink = [
   },
   {
     link: "Presale Benefits",
-    path: "/",
+    path: "#vision",
   },
   {
     link: "How it works",
-    path: "/",
+    path: "#roadmap",
   },
   {
     link: "Tokenomics",
-    path: "/",
+    path: "#tokenomics",
   },
   {
     link: "Staking Rewards",
-    path: "/",
+    path: "#staking",
   },
   {
     link: "How to buy",
-    path: "/",
+    path: "#buy",
   },
   {
     link: "FAQ",
-    path: "/",
+    path: "#faq",
   },
 ];
 export const ellipseData = [
@@ -607,5 +607,22 @@ export const dot = [
   },
   {
     img: "/assetes/png/dot.png",
+  },
+];
+export const BirdData = [
+  {
+    vedio: "/assetes/vedio/bird1.mp4",
+  },
+  {
+    vedio: "/assetes/vedio/bird1.mp4",
+  },
+  {
+    vedio: "/assetes/vedio/bird1.mp4",
+  },
+  {
+    vedio: "/assetes/vedio/bird1.mp4",
+  },
+  {
+    vedio: "/assetes/vedio/bird1.mp4",
   },
 ];

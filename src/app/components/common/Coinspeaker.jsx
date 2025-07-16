@@ -20,6 +20,21 @@ function Coinspeaker() {
               spaceBetween={48}
               loop={true}
               autoplay={{ delay: 2000 }}
+              breakpoints={{
+                320: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+                450: { slidesPerView: 4, spaceBetween: 30 },
+                768: {
+                  slidesPerView: 5,
+                  spaceBetween: 30,
+                },
+                1024: {
+                  slidesPerView: 6,
+                  spaceBetween: 40,
+                },
+              }}
             >
               {coinData.map((item, index) => (
                 <SwiperSlide key={index}>

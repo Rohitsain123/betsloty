@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 
 import Image from "next/image";
 
-import { alegreya } from "@/app/layout";
+import { alegreya } from "../../layout";
 import "./RangeSlider.css";
 
 import Heading from "./Heading";
@@ -38,7 +38,7 @@ function CommonHero() {
                 sapntitle={"Join Now"}
               />
               <Para
-                className={"mt-[10px] md:mt-[15px] lg:mt-[30px]"}
+                className={"mt-[10px] md:mt-[15px] lg:mt-[30px] opacity-[0.7]"}
                 subtitle={
                   "Discover the ultimate destination for online crypto gambling at Betsloty Casino. With full licensing and a commitment to 100% safety, your gaming experience is secure and exhilarating."
                 }
@@ -94,7 +94,7 @@ function CommonHero() {
                     max={50000}
                     value={price}
                     onChange={(e) => setPrice(Number(e.target.value))}
-                    className="custom-slider w-full"
+                    className="custom-slider w-full  "
                   />
                 </div>
 

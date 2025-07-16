@@ -11,13 +11,13 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { LeftArrow, RightArrow, YoutubeLogo } from "../../helper/Icon";
 import Link from "next/link";
-import { alegreya } from "@/app/layout";
+import { alegreya } from "../../../layout";
 
 function Sharing() {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="bg-[#19172F] py-[40px] md:py-[70px] lg:py-[100px] relative">
-      <div className="absolute top-0 z-[-99]">
+      <div className="absolute top-0  ">
         <Image
           src={"/assetes/png/bgline.png"}
           width={1513}
@@ -30,7 +30,7 @@ function Sharing() {
           className={`!text-2xl md:!text-3xl lg:!text-[39px] text-center leading-[120%] ${alegreya.className}`}
           title={"Betting and Social Sharing"}
         />
-        <div className="flex justify-center">
+        <div className="flex justify-center mt-1 md:mt-[10px]">
           <Image
             src={"/assetes/png/line2.png"}
             width={304}

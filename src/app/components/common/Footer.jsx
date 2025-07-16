@@ -8,10 +8,10 @@ import Heading from "./Heading";
 function Footer() {
   return (
     <>
-      <div className="bg-[#131126] pt-[30px]">
+      <div className="bg-[#131126] pt-0 lg:pt-[30px]">
         <div className="border-t border-[#4C496D]">
-          <div className="pt-[50px] pb-[45px] max-w-[1352px] px-4 sm:px-6 md:px-9 lg:px-12 xl:px-[80px] mx-auto">
-            <div className="flex flex-wrap md:flex-nowrap gap-10 md:gap-4 justify-between">
+          <div className="pt-5 lg:pt-[50px] pb-5 lg:pb-[45px] max-w-[1352px] px-4 sm:px-6 md:px-9 lg:px-12 xl:px-[80px] mx-auto">
+            <div className="flex flex-wrap md:flex-nowrap gap-7 lg:gap-10 md:gap-4 justify-between">
               <div className="w-[100%] md:w-[40%]">
                 <Link href={"/"}>
                   <Image
